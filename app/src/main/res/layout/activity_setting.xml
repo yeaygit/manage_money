@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Setting">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="314dp"
+        android:background="@color/line">
+
+        <LinearLayout
+            android:layout_width="408dp"
+            android:layout_height="69dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/bt_back4"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="10sp"
+                android:backgroundTint="@color/lliner"
+                app:srcCompat="?attr/actionModeCloseDrawable" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="154dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_pic1"
+                android:layout_width="144dp"
+                android:layout_height="141dp"
+                android:layout_marginLeft="130sp"
+                android:layout_marginTop="5sp"
+                tools:srcCompat="@tools:sample/avatars" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/et_nickname"
+                android:layout_width="300sp"
+                android:layout_height="70sp"
+                android:layout_marginLeft="50sp"
+                android:layout_marginTop="10sp"
+                android:hint="닉네임을 입력하세요."/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/et_gender"
+                android:layout_width="300sp"
+                android:layout_height="70sp"
+                android:layout_marginLeft="50sp"
+                android:layout_marginTop="10sp"
+                android:hint="성별을 입력하세요."/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/et_old"
+                android:layout_width="300sp"
+                android:layout_height="70sp"
+                android:layout_marginLeft="50sp"
+                android:layout_marginTop="10sp"
+                android:hint="나이를 입력하세요."/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/et_job"
+                android:layout_width="300sp"
+                android:layout_height="70sp"
+                android:layout_marginLeft="50sp"
+                android:layout_marginTop="10sp"
+                android:hint="직업을 입력하세요."/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bt_save"
+                android:layout_width="267dp"
+                android:layout_height="72dp"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="30sp"
+                android:text="Save"
+                android:backgroundTint="@color/lliner"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
